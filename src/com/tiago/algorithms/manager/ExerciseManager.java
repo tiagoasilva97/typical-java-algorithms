@@ -6,7 +6,7 @@ import com.tiago.algorithms.string.StringExercises;
 
 public class ExerciseManager {
 
-    public ExerciseManager(){
+    public void runAllExercises(){
         stringExercises();
         mathExercises();
         arrayExercises();
