@@ -1,5 +1,5 @@
-package math;
-import exercises.Exercise;
+package com.tiago.algorithms.math;
+import com.tiago.algorithms.exercise.Exercise;
 
 public class MathExercises implements Exercise {
 

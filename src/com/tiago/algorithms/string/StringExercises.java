@@ -1,6 +1,6 @@
-package string;
+package com.tiago.algorithms.string;
 
-import exercises.Exercise;
+import com.tiago.algorithms.exercise.Exercise;
 
 public class StringExercises implements Exercise {
     @Override
@@ -93,7 +93,7 @@ public class StringExercises implements Exercise {
     }
 
     private static void removeFirstAndLast() {
-        String removeFirstAndLastSpace = " this is a string ";
+        String removeFirstAndLastSpace = " this is a com.tiago.algorithms.string ";
 
         removeFirstAndLastSpace = removeFirstAndLastSpace.strip();
 

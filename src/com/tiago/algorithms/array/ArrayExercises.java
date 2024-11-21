@@ -1,6 +1,6 @@
-package array;
+package com.tiago.algorithms.array;
 
-import exercises.Exercise;
+import com.tiago.algorithms.exercise.Exercise;
 
 import java.util.Arrays;
 
@@ -16,6 +16,6 @@ public class ArrayExercises implements Exercise {
         int [] numArray = {1,2,6,5,4};
         Arrays.sort(numArray);
 
-        System.out.println("Sorted array: " + Arrays.toString(numArray));
+        System.out.println("Sorted com.tiago.algorithms.array: " + Arrays.toString(numArray));
     }
 }
