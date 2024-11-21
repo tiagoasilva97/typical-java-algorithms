@@ -1,3 +1,6 @@
+import exercises.Exercise;
+import math.MathExercises;
+
 import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.io.InputStream;
 import java.util.Arrays;
@@ -8,7 +11,10 @@ import java.util.Comparator;
 public class Main {
     public static void main(String[] args) {
 
-        reverseString();
+        MathExercises mathExercises = new MathExercises();
+        mathExercises.executeAll();
+
+        /*reverseString();
         swapNumbers();
         checkVowel();
         checkPrime();
@@ -18,7 +24,7 @@ public class Main {
         checkPalindrome();
         removeSpaces();
         removeFirstAndLast();
-        sortingArray();
+        sortingArray();*/
     }
 
     public static void reverseString(){
